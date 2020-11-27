@@ -1,5 +1,8 @@
+**Step 0: Pick your desired version of MySQL**
 
-**Step 1: Pull your preferred MySQL using any of the following commands**
+You can see available MySQL dockerhub tags from here https://hub.docker.com/_/mysql?tab=tags&page=1
+
+**Step 1: Pull your preferred using `docker pull`, following are few examples**
 
 * `docker pull mysql:latest`
 * `docker pull mysql:8`
