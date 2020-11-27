@@ -18,5 +18,6 @@ Please note few things before running the command
 * Make sure to change your data directory to the appropriate one.
 * Set your desired root password.
 * Use the tag name same as you used in Step 1 `mysql:latest` or `mysql:5` or `mysql:8`
+* Use port `33067` to reach the MySQL instance. The MySQL server is running on default port `3306` inside the container so do not use `3306` in your application.
 
 `docker run --name dev.mysql -p 33067:3306 -v E:/webserver/mysql/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:latest`
