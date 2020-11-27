@@ -1,3 +1,5 @@
+
+# *Incomplete*, Will be updated very soon
 # spaul-dev
 
 ### This is interesting for you if:
@@ -21,3 +23,7 @@ If you follow the below steps, you will get full control over the dev env in you
 
 * php: _Nothing as of now._
 * nginx: Contains a sample nginx file that I use.
+
+Know your tools:
+
+* https://github.com/wenshui2008/RunHiddenConsole
